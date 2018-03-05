@@ -1,2 +1,2 @@
 # nasa-apod-scrap
-Python script to scrap pictures from NASA's Astronomy Picture of the Day (APOD) website.  
+Python script to scrap pictures from [NASA's Astronomy Picture of the Day (APOD)](https://apod.nasa.gov/apod/lib/aptree.html) website. It shows how to scrape websites using Python, using popular Web Scrapping packages, such as Requests and BeautifulSoup, as well as other useful packages, like glob and the Regular Expressions package.
