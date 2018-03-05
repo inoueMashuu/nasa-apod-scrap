@@ -52,7 +52,7 @@ regexDate = re.findall('\d{4} \w+ \d{1,2}:[^\n]+', str(boldText))
 listJPGfiles = glob.glob('pics\*.jpg')
 setPicsStored = set(os.path.basename(f)[:-4] for f in listJPGfiles)    
 
-nPics = input('From '+str(len(regexDate))+' pictures of the day, how many do you want to download, strating from newest images?\n:')
+nPics = input('From '+str(len(regexDate))+' pictures of the day, how many do you want to download, starting from newest images?\n:')
     
 for day in regexDate[:int(nPics)]:
     soupDay = BeautifulSoup(day, 'lxml')
